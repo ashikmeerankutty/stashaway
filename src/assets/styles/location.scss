@@ -1,0 +1,76 @@
+.location {
+  flex: 1;
+  border-right: 1px solid #22242626;
+  cursor: pointer;
+  .location_wrapper {
+    .location_header {
+      padding: 0px 10px 0px 10px;
+      .location_title {
+        display: flex;
+        justify-content: space-between;
+        .location_title_text {
+          padding-top: 25px;
+          padding-bottom: 10px;
+          padding-left: 10px;
+          padding-right: 10px;
+          font-size: 16px;
+          font-weight: lighter;
+          margin: 0;
+          color: #c6c6c6;
+        }
+        .location_input_holder {
+          padding: 25px 0px 0px 10px;
+          .location_input_label {
+            padding-bottom: 2px;
+            color: #c6c6c6;
+            margin: 0;
+          }
+          .location_input {
+            font-size: 14px;
+            border: none;
+            &:focus {
+              outline: none;
+              border: none;
+            }
+            &:active {
+              border: none;
+            }
+          }
+          .location_input::placeholder {
+            color: #c6c6c6;
+          }
+        }
+        .location_icon {
+          padding-top: 25px;
+          padding-bottom: 10px;
+          padding-left: 10px;
+          padding-right: 10px;
+        }
+      }
+    }
+    .location_list {
+      background: #fff;
+      max-height: 200px;
+      overflow-y: scroll;
+      .location_span {
+        padding-right: 5px;
+      }
+      .location_list_item {
+        padding: 0 10px;
+        display: flex;
+        .location_place {
+          font-size: 14px;
+          margin: 10px 0px;
+        }
+        .location_type {
+          margin: 10px 0px;
+          color: grey;
+          font-size: 12px;
+        }
+        &:hover {
+          background: #efefef;
+        }
+      }
+    }
+  }
+}

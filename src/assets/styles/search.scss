@@ -1,0 +1,54 @@
+.search_bar {
+  max-width: 800px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 10px;
+  height: 70px;
+  box-shadow: 2px 2px 30px 1px rgba(208, 208, 208, 0.31);
+  .foods {
+    flex: 2;
+    border-right: 1px solid #22242626;
+    .food-search {
+      width: 100%;
+      height: 100%;
+      font-size: 16px;
+      font-weight: lighter;
+      padding-left: 10px;
+      border: none;
+      &:focus{
+        border: none;
+        outline: none;
+      }
+    }
+  }
+  .date-picker {
+    flex: 1;
+    border-left: 1px solid #22242626;
+    .year-search {
+      width: 100%;
+      height: 100%;
+      font-size: 16px;
+      font-weight: lighter;
+      padding-left: 10px;
+      border: none;
+      &:focus{
+        border: none;
+        outline: none;
+      }
+    }
+  }
+  .search_button {
+    cursor: pointer;
+    flex:2;
+    background: linear-gradient(to right, #ff8300, #ff7100);
+    border-radius: 0px 10px 10px 0px;
+    h2 {
+      padding-top: 10px;
+      text-align: center;
+      font-size: 18px;
+      color: #fff;
+    }
+  }
+}

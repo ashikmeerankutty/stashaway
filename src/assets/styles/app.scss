@@ -5,3 +5,8 @@ body {
   background: #f8f9fa;
   font-family: $font-family;
 }
+
+@import './restaurant.scss';
+@import './search';
+@import './location';
+@import './header';
